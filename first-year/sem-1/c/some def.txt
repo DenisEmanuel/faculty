@@ -1,0 +1,21 @@
+Definition 1.1. A sequence of real numbers (a real sequence) has the form
+a0, a1, ..., an, ...
+where an ∈ R for all n ≥ 0. Formally, a sequence of real numbers can be defined as a
+function a : N → R, i.e. for each natural number n ∈ N we associate the real number
+an ∈ R, called the general term of the sequence. One way to denote a sequence is
+(an)n∈N, (an)n≥0, or simply (an).
+In some situations, a sequence must be considered as a real function defined on the
+set {n ∈ N : n ≥ n0}, where n0 ∈ N is a fixed natural number (often called rank), in
+which case the sequence will be denoted by (an)n≥n0
+(take, for example, an =
+1
+n(n−2) ,
+n ≥ 3). Sequences most often begin with n0 = 0 (for example, an = n − 1, n ≥ 0) or
+n0 = 1 (an =
+ln n
+n+1 , n ≥ 1). Specifically, if n is a positive integer (that is, n0 = 1), then
+an is called the nth term of the sequence.
+By abuse of notation, it is often convenient to write ”the sequence an” instead of
+”the sequence whose general term is an”.
+Definition 1.2. A sequence (an)n≥0 of real numbers is called bounded if there exist
+two finite numbers m, M such that
