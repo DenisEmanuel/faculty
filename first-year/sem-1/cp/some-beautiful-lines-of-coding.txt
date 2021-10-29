@@ -1,0 +1,41 @@
+#include<stdio.h>
+
+int v[10];
+
+unsigned int maxNR(unsigned n) {
+
+unsigned nn,cif;
+
+n=nn;
+
+while(nn!=0)
+{
+	cif=nn%10;
+	v[cif]++;
+	nn=nn/10;
+
+}
+
+int i;
+unsigned int nr=0,p=1;
+
+    for(i=9;i>=0;i--)
+
+	if(v[i]==1) {nr=nr* p + v[i] ;
+		     p=p*10;
+		     }
+
+return nr;
+}
+
+
+int main() {
+
+unsigned int n;
+unsigned rez;
+
+rez=maxNR(n);
+
+	printf("%u",rez);
+return 0;
+}
